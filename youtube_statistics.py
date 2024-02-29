@@ -31,6 +31,7 @@ def extract_game_idx(title: str):
 def get_youtube_data(playlist_url:str):
      """
      Returning views of Youtube Playlist including url and publish data as pandas dataframe
+     with following columns: 
      """
      p = pytube.Playlist(playlist_url)
      views = []
